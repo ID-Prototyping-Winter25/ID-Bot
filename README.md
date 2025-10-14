@@ -46,20 +46,15 @@ pip install -r requirements.txt
 
 ### 4. OpenAI API Key einrichten
 
-**Windows (PowerShell):**
-```powershell
-$env:OPENAI_API_KEY="dein-api-key-hier"
-```
+- Mac User: 
 
-**Windows (CMD):**
-```cmd
-set OPENAI_API_KEY=dein-api-key-hier
-```
+in ```/Users/<username>/.zshrc``` einfügen
 
-**macOS/Linux:**
-```bash
-export OPENAI_API_KEY="dein-api-key-hier"
-```
+```export OPENAI_API_KEY='.....'```
+
+- Windows User:
+
+Systemumgebungsvariaben bearbeiten, ```OPENAI_API_KEY``` einfügen und als Wert den Key unten eingeben
 
 ### 5. Projektstruktur einrichten
 
@@ -67,7 +62,7 @@ Stelle sicher, dass folgende Ordnerstruktur existiert:
 ```
 projektordner/
 │
-├── main.py                    # Hauptdatei
+├── app.py                     # Hauptdatei
 ├── theme.py                   # Theme-Konfiguration
 ├── requirements.txt           # Python-Abhängigkeiten
 ├── style.css                  # (optional) CSS-Styling
