@@ -174,7 +174,7 @@ KONTEXT:
 
 Beantworte die Frage NUR basierend auf dem obigen Kontext.
 Wenn die Antwort nicht im Kontext zu finden ist, sage das klar und deutlich.
-Antworte immer auf Deutsch und präzise.
+Antworte immer auf Deutsch und präzise. Gib zu jeder Antwort an, auf welcher Seite die Informationen gefunden wurden?
 """
     
     # Konvertiere Gradio history Format zu OpenAI messages Format

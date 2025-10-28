@@ -57,7 +57,7 @@ KONTEXT:
 ---------------------
 
 Beantworte Fragen NUR basierend auf diesem Kontext. Nutze NICHT dein allgemeines Wissen.
-Antworte immer auf Deutsch und in einer für Studierende angemessenen Sprache.
+Antworte auf Deutsch und gibt immer die Seitenzahl an, von der Seite auf der die Information steht, die Du ausgibst.
 """
 
 
